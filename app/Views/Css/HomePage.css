@@ -1,0 +1,376 @@
+﻿
+
+:root {
+    --purple: #E0BBE4;
+    --pink: #FF9AA2;
+    --grey:#909497;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+header{
+    margin-right: 1vw;
+}
+.heading1 {
+    
+    display: flex;
+    color: white;
+    background-color: #E0BBE4;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    font-size: 1.2vw;
+}
+
+.logo {
+    position: absolute;
+    float: left;
+    width: 15vw;
+    height: 10vw;
+    margin-left: 0;
+}
+
+.thanhtimkiem {
+    margin-left: 12%;
+    margin-top: 3.5vw;
+    width: 65%;
+    position: absolute;
+    background-color: white;
+    border-radius:50vw;
+   
+
+}
+
+.timkiemsp {
+    float: left;
+    width: 100%;
+    background: #FDFEFE;
+    border-radius: 50vw;
+    font-style: italic;
+    height: 2.2vw;
+    font-size: 1vw;
+}
+
+#icon {
+    color: black;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    padding: 0;
+    margin-right: 1vw;
+}
+
+.icon2 {
+    margin-top: 3.5vw;
+    margin-right: 10vw;
+    float: right;
+}
+
+#icon-search {
+    display: flex;
+    color: black;
+    font-size: 1.8vw;
+    font-weight: bolder;
+    position: absolute;
+    right: 0.5vw;
+    top: 2px;
+    bottom: 2px;
+    border-radius: 50vw;
+}
+
+button {
+    text-decoration: none;
+    background: white;
+    border: none;
+    font-weight: bolder;
+    font-size: 28px;
+    color: black;
+}
+
+nav {
+    margin-top: 7%;
+    margin-left: 4vw;
+    font-size: 1.5vw;
+    margin-bottom:2vw ;
+}
+
+    nav li {
+        float: left;
+        display: block;
+        padding: 1vw 4vw 1vw 4vw;
+    }
+
+    nav a {
+        display: block;
+        font-weight: bolder;
+        text-decoration: none;
+        color: black;
+        font-size: 1.5vw;
+    }
+        li a:hover:not(.active) {
+        background-color: var(--purple);
+        color: white;
+        text-decoration: none;
+        }
+        li a.active {
+            color: var(--purple);
+            text-decoration: none;
+          }
+
+img{
+    width:110vw;
+    height:45vw;
+}
+.frame1 {
+    height: 1vw;
+    display: flex;
+    justify-content: center;
+   
+}
+.container {
+    margin-top: 14vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    width: 85%;
+    padding: 0;
+}
+h1{
+    text-align:center;
+    font-weight:900;
+    font-size:2.5vw;
+    color: #000000;
+}
+.frame2{
+    
+    position:relative;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+.flex-container {
+    display: flex;   
+    width:100%;
+   
+}
+    .flex-container > div {
+        display: flex;
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 25%;
+        align-items: center;
+        justify-content: space-around;
+        align-content: space-around;
+        margin: 3vw;
+        box-shadow: 0px 9vw 0px 2vw #E8DAEF;
+    }
+.image-product{
+    width:10vw;
+    height:auto;
+}
+.name-product{
+    margin-top:30vw;
+    position:absolute;
+    text-align:center;
+    align-items:center;
+    display:flex;
+    width:14vw;
+    font-weight:900;
+    font-size:1.2vw;
+}
+pre{
+    background:none;
+    border: none;
+    padding: 0;
+}
+.cost-product {
+    margin-top: 38vw;
+    padding-top:1vw;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 14vw;
+    font-weight:bolder;
+    font-size: 1.4vw;
+    
+}
+hr{
+    border: 1px solid var(--grey)
+}
+.frame3 {
+    margin-top:10vw;
+    position:static;
+    padding-bottom:2vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+.frame3-1 {
+    float: left;
+    width: 40vw;
+    height: 40vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    position: sticky;
+    margin-top: 1vw;
+}
+.frame3-2 {   
+    width: 22vw;
+    height: 22vw;
+    margin-left: 1vw;
+    position:relative;
+    padding-right: 2vw;
+    margin-top: 1vw;
+}
+.frame3-3 {
+    float: right;
+    width: 18vw;
+    height: 21vw;
+    margin-top:10vw;
+    
+}
+.button1 {
+    padding:1vw;
+    margin:2vw;
+    width:16vw;
+    position: relative;
+    background-color:#FF9AA2;
+    border-radius:50px;
+    color:white;
+    font-size: 1.5vw;
+}
+#icon-arrow {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.frame3-4 {
+    width: 20vw;
+    height: 22vw;
+    padding: 0vw;
+    margin-left: -5vw;
+    margin-top: 1vw;
+    position: absolute;
+}
+.frame3-text{
+    margin-top: 1vw;
+    position:static;
+    margin-left:58vw;
+    padding-right:1vw;
+    width:27vw;
+    font-weight:bold;
+    font-size:1.2vw;
+}
+
+section {
+    margin-top: 2vw;
+    position: static;
+    padding-bottom: 2vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+.flex-container2 {
+    display: flex;
+    width: 100%;  
+   
+}
+
+    .flex-container2 > div {
+        display: flex;             
+        padding-right:4vw ;
+        align-items: center;
+        justify-content: space-around;
+        align-content: space-around;
+        
+    }
+.image-blog {
+    width: 18vw;
+    height: 21vw;
+}
+h6{
+    font-weight:900;
+    font-size:1vw;
+    width:19vw;
+    position:sticky;
+    margin-bottom:0.5vw;
+    color: #000000;
+}
+article{
+    margin-left:2vw;
+    width:19vw;
+    font-size:1.2vw;
+    padding-top:0;
+}
+.button-post {
+    color:white;
+    padding: 0.5vw;
+    width: 14vw;
+    position: relative;
+    background-color: #FF9AA2;
+    border-radius: 20px;
+    font-size:1.3vw;
+}
+footer {
+    background-color: #957DAD;
+    padding-top: 6%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 0;
+}
+.nav2 {
+    overflow: hidden;
+    position: relative;
+}
+
+    .nav2 a {
+        margin: auto;
+        text-align: center;
+        font-weight: bolder;
+        text-decoration: none;
+        color: black;
+        font-size: 1.5vw;
+        padding: 6%;
+        margin: auto;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+.logo2 {
+    position: absolute;
+    width: 20vw;
+    height: 15vw;
+    margin-left: 37%;
+    background: #957DAD;
+    align-content: center;
+}
+
+.line2 {
+    border: 1px solid #00000080;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+
+.footer-text {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1vw;
+    position: relative;
+    margin-bottom: 0;
+    margin-right: 0;
+    color: #000000;
+}
